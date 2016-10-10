@@ -5,23 +5,21 @@ O'learys establishment in the set radius of a set location.
 ## Installation
 
 1. Clone the repo
-1. pip install requests
-1. python olearyspicker.py 
+2. pip install -r requirements.txt
+3. python olearyspicker.py
 
 ## Usage
 ```
-olearyspicker.py [-h] [-d DISTANCE] [-c COORDINATES]
+Usage:
+    olearyspicker.py [options]
 
-Find and randomize nearby O'learys restaurants.
-Stockholm central coordinates is 18.0686,59.3293.
-Gothenburg central is 11.9746,57.7089
+Options:
+    --longitude=long    Longitude value [default: 18.0388702]
+    --latitude=lat      Latitude value [default: 59.3213309]
+    --distance=dist     Distance in meters [default: 4000]
+    -h, --help          Show this help and exit
+    -v, --verbose       There is no verbose :(
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -d DISTANCE, --distance DISTANCE
-                        Integer for distance in meters
-  -c COORDINATES, --coordinates COORDINATES
-                        Coordinates in format 18.0388702,59.3213309 (W/E, N/S)
 ```
 
 ## Contributing
